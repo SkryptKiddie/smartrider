@@ -4,8 +4,15 @@
 - SmartRider
 - USB NFC card reader
 - mfoc
-- libnfc_crypt1_crack
+- libnfc_crypto1_crack
 - SmartRider Sector 1 Key A
+
+## How to install libnfc_crypto1_crack
+Easiest method for installing crypto1_crack is to install it via [miLazyCracker](https://github.com/nfc-tools/miLazyCracker) and modifying the install script to replace broken packages.
+1. Clone the miLazyCracker repository.
+2. Download `craptev1-v1.1.tar.xz` and `crapto1-v3.3.tar.xz` from this repository and save them into the same folder as `miLazyCrackerFreshInstall.sh`.
+3. Comment out lines 6 and 7 from `miLazyCrackerFreshInstall.sh` containing the wget commands.
+4. Run `miLazyCrackerFreshInstall.sh` and the setup should proceed successfully.
 
 ## Method 1 (older cards)
 1. Connect the NFC card reader and with your card on the reader, run `mfoc -O dump.mfc`
