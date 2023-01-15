@@ -25,7 +25,7 @@ If MFOC says that the hardnested attack isn't supported, you must use the next m
 2. Run `libnfc_crypto1_crack (key A) 0 A 0 B`, replacing (key A) with the key. Use method 1 to find the key (you can find the key, but mfoc can't crack the newer cards). __This will return your personal key A.__
 3. If the key is found, run `libnfc_crypto1_crack FOUNDKEY 0 B 4 A`, replacing FOUNDKEY with the key that step 2 outputs. __This will return your personal key B.__
 4. Once you have both keys, paste them both into a file called `keys.txt` in your working directory, on individual lines.
-5. Run `mfoc -O dump.mfc -k keys.txt`.
+5. Run `mfoc -O dump.mfc -f keys.txt`.
 6. Assuming all goes well, the terminal will output the card contents to the terminal and into dump.mfc.
 
 ## Example keys.txt
