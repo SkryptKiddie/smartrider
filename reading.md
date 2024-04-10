@@ -27,4 +27,5 @@ Offsets of note:
 | 0x10 | Free travel | 
 | ? | Veteran's Concession | 
 | ? | ASH Concession |
+ 
 https://www.transperth.wa.gov.au/SmartRider/Types-of-SmartRider
